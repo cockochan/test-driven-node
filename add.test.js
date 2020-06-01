@@ -7,4 +7,7 @@ describe('add()', () => {
     it('five plus three equals eight', () => {
         expect(add("v", "iii")).toBe("viii");
     });
+    it('thousand plus fivehundred equals 1500', () => {
+        expect(add("d", "m")).toBe("md");
+    });
 });
