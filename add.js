@@ -1,3 +1,4 @@
 module.exports = (a,b) => {
-    return "";
+
+    return `${a}${b}`;
 }
