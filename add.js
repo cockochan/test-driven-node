@@ -6,8 +6,8 @@ function romanCompare (a,b){
         d:500,
         v:5
     }
-    return (nums.a)-(nums.b);
+    return ((nums[a])-(nums[b]));
 };
 module.exports = (a,b) => {
-    return ((a+b).split('').sort(romanCompare).join(''));
+    return ((a+b).split('').sort(romanCompare).reverse().join(''));
 }
